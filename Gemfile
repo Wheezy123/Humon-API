@@ -22,6 +22,7 @@ gem "uglifier"
 gem "unicorn"
 gem "oj"
 gem "sqlite3"
+gem "jbuilder"
 #this is a change for commit purposes
 
 group :development do
