@@ -1,6 +1,6 @@
 class Event < ActiveRecord::Base
   has_many :attendances
-  has_many :users, through: :attendances
+  as_many :users, through: :attendances
 
   validates :lat, presence: true
   validates :lon, presence: true
